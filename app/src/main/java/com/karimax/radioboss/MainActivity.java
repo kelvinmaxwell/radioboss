@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageview);
 
         // Adding the gif here using glide library
-        Glide.with(this).load(R.drawable.radiobossgif).into(imageView);
+
 
         new Handler().postDelayed(new Runnable() {
             @Override
